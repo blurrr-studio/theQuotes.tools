@@ -1,0 +1,29 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "93GSK2Z334.studio.blurrr.Quotes"
+        ],
+        "components": [
+          {
+            "/": "/quotes/????????-????-????-????-????????????",
+            "comment": "Match /quotes/ routes with a UUID"
+          },
+          {
+            "/": "/newQuote",
+            "comment": "Match /newQuote path, with or without query parameters"
+          },
+          {
+            "/": "/list",
+            "comment": "Match /list path, with or without query parameters"
+          },
+          {
+            "/": "/events/*",
+            "comment": "Match /events/* path, with or without query parameters"
+          }
+        ]
+      }
+    ]
+  }
+}
